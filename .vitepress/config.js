@@ -11,5 +11,8 @@ export default {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/madrecha/duedate' }
     ],
+    footer: {
+      message: 'Released under the Open Sourse GPL 3.0 License',
+    },
   }
 }
