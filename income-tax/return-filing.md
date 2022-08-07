@@ -15,8 +15,8 @@ The due date of filing is dependent on Tax Payer Category.
 
 Category of Taxpayer | Due Date
 -- | --
-Individual / HUF/ AOP/ BOI <br/>(books of accounts not required to be audited) | 31st July 2022
-Businesses (Requiring Audit) | 31st October 2022
-Businesses (Requiring Transfer Pricing Report) | 30th November 2022
+Individual/ HUF/ AOP/ BOI/ Trust <br/>(books of accounts not required to be audited) | 31st July 2022
+Businesses/ Trust <br/>(Where Tax Audit is applicable) | 31st October 2022
+Businesses (Where Transfer Pricing Report is applicable) <br/> Trust (required to furnish Form 3CEB ) | 30th November 2022
 
 
