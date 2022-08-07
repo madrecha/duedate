@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "vitepress dev"
+    "dev": "vitepress dev",
+    "build": "vitepress build"
   },
   "keywords": [],
   "author": "Adarsh Madrecha <adarshmadrecha@yahoo.com>",
