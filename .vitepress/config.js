@@ -1,7 +1,11 @@
 export default {
   title: 'Due Date',
   description: 'Indian Compliance Due Dates as per all laws.',
+  lang: 'en-US',
+
+  // Vitepress Config
   lastUpdated: true,
+
   themeConfig: {
     siteTitle: 'Due Date',
     logo: '/favicon.svg',
