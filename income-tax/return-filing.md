@@ -1,7 +1,7 @@
 # Income Tax return filing due date
 
 The due date in case of return filing is the date by which the returns can be filed without any late fee or penalty.
-You can file the return after due date too. It's called [belated return](belated-return.md) but interest and penalty will be applicable.
+You can file the return after due date too. It's called [belated return](belated-return.md) but [interest and penalty](#consequence-of-late) will be applicable.
 
 The due date of filing is dependent on Tax Payer Category.
 
