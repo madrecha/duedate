@@ -7,6 +7,9 @@ export default {
     logo: '/favicon.svg',
     editLink: {
       pattern: 'https://github.com/madrecha/duedate/edit/main/:path'
-    }
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/madrecha/duedate' }
+    ],
   }
 }
