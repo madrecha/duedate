@@ -10,7 +10,7 @@ export default {
     siteTitle: 'Due Date',
     logo: '/favicon.svg',
     editLink: {
-      pattern: 'https://github.com/madrecha/duedate/edit/main/:path'
+      pattern: 'https://github.com/madrecha/duedate/edit/draft/:path'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/madrecha/duedate' }
