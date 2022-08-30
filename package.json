@@ -11,7 +11,7 @@
   "license": "GPL3",
   "dependencies": {
     "vitepress": "1.0.0-alpha.12",
-    "vue": "3.2.37"
+    "vue": "3.2.38"
   },
   "pnpm": {
     "peerDependencyRules": {
