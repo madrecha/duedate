@@ -10,7 +10,7 @@
   "author": "Adarsh Madrecha <adarshmadrecha@yahoo.com>",
   "license": "GPL3",
   "dependencies": {
-    "vitepress": "1.0.0-alpha.21",
+    "vitepress": "1.0.0-rc.22",
     "vue": "3.2.41"
   },
   "pnpm": {
