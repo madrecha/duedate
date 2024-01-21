@@ -443,14 +443,14 @@ packages:
     resolution: {integrity: sha512-v/ZHEj9xh82usl8LMR3GarzFY1IrbXJw5L4QfQhokjRV91q+SelFqxQWSep1ucXEZ22+dSTwLFkXeur25sPIbw==}
     dev: false
 
-  /@vitejs/plugin-vue@4.3.1(vite@4.5.0)(vue@3.4.15):
+  /@vitejs/plugin-vue@4.3.1(vite@4.5.2)(vue@3.4.15):
     resolution: {integrity: sha512-tUBEtWcF7wFtII7ayNiLNDTCE1X1afySEo+XNVMNkFXaThENyCowIEX095QqbJZGTgoOcSVDJGlnde2NG4jtbQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.5.0
+      vite: 4.5.2
       vue: 3.4.15
     dev: false
 
@@ -705,12 +705,6 @@ packages:
     resolution: {integrity: sha512-PNxA/X8pWk+TiqPbsoIYH0GQ5Di7m6326/lwU/S4mlo4wGQddIcf/V//1f9TB0V4j59b57b+HZxt8h3iMROGvg==}
     dev: false
 
-  /nanoid@3.3.6:
-    resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: false
-
   /nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -719,15 +713,6 @@ packages:
 
   /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-    dev: false
-
-  /postcss@8.4.31:
-    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
     dev: false
 
   /postcss@8.4.33:
@@ -778,8 +763,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /vite@4.5.0:
-    resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
+  /vite@4.5.2:
+    resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -807,7 +792,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.4.31
+      postcss: 8.4.33
       rollup: 3.29.4
     optionalDependencies:
       fsevents: 2.3.2
@@ -828,7 +813,7 @@ packages:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(search-insights@2.9.0)
       '@types/markdown-it': 13.0.5
-      '@vitejs/plugin-vue': 4.3.1(vite@4.5.0)(vue@3.4.15)
+      '@vitejs/plugin-vue': 4.3.1(vite@4.5.2)(vue@3.4.15)
       '@vue/devtools-api': 6.5.1
       '@vueuse/core': 10.5.0(vue@3.4.15)
       '@vueuse/integrations': 10.5.0(focus-trap@7.5.4)(vue@3.4.15)
@@ -836,7 +821,7 @@ packages:
       mark.js: 8.11.1
       minisearch: 6.1.0
       shiki: 0.14.5
-      vite: 4.5.0
+      vite: 4.5.2
       vue: 3.4.15
     transitivePeerDependencies:
       - '@algolia/client-search'
